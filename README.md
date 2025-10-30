@@ -1,16 +1,49 @@
-# React + Vite
+Crypto Price Tracker — React App:
+This project is a Cryptocurrency Price Tracking Web App built using React.js.
+It displays real-time crypto prices, market trends, and interactive charts using data from the CoinGecko API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+Live Cryptocurrency Prices – Get up-to-date price information for all major coins.
+Interactive Charts – Visualize coin price trends over time.
+Global Market Data – See market cap, volume, rank, and more.
+Search & Filter – Quickly find your favorite cryptocurrencies.
+Currency Conversion – View prices in multiple currencies (USD, INR, etc.).
+Fast & Responsive UI – Built with React Hooks and modern UI design principles.
 
-Currently, two official plugins are available:
+Tech Stack:
+Technology	Purpose
+React.js	Frontend framework
+CoinGecko API	Fetch live cryptocurrency data
+Axios / Fetch API	API requests
+Chart.js / Recharts	Display interactive price charts
+CSS / Tailwind	Styling and layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation & Setup:
+Follow these steps to run the app locally 👇
 
-## React Compiler
+1️⃣ Clone the Repository
+git clone https://github.com/<your-username>/<your-repo-name>.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2️⃣ Navigate to the Project Folder
+cd <your-repo-name>
 
-## Expanding the ESLint configuration
+3️⃣ Install Dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4️⃣ Start the Development Server
+npm start
+
+📁 Folder Structure:
+
+crypto-tracker/
+├── public/
+│   ├── index.html
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   ├── App.js
+│   ├── index.js
+│   └── styles.css
+├── package.json
+└── README.md
