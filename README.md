@@ -22,16 +22,16 @@ Installation & Setup:
 Follow these steps to run the app locally 👇
 
 1️⃣ Clone the Repository
-git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/<your-username>/<your-repo-name>.git
 
 2️⃣ Navigate to the Project Folder
-cd <your-repo-name>
+   cd <your-repo-name>
 
 3️⃣ Install Dependencies
-npm install
+    npm install
 
 4️⃣ Start the Development Server
-npm start
+   npm start
 
 📁 Folder Structure:
 
