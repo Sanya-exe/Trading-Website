@@ -20,16 +20,16 @@ It displays real-time crypto prices, market trends, and interactive charts using
 ## **Installation & Setup:**
 **Follow these steps to run the app locally 👇**
 
-1️⃣ Clone the Repository
+**1️⃣ Clone the Repository**
    git clone https://github.com/<your-username>/<your-repo-name>.git
 
-2️⃣ Navigate to the Project Folder
+**2️⃣ Navigate to the Project Folder**
    cd <your-repo-name>
 
-3️⃣ Install Dependencies
+**3️⃣ Install Dependencies**
     npm install
 
-4️⃣ Start the Development Server
+**4️⃣ Start the Development Server**
    npm start
 
 ## **📁 Folder Structure:**
